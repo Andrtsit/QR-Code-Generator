@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+main {
+  height: 100dvh;
+  width: 100vw;
+  padding: 0.5rem;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+}
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+form {
+  width: 100%;
+  max-width: 40rem; /* cap it */
+  border-radius: 10rem;
+  background-color: #111;
+  padding: 0.5rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+input {
+  flex: 1;
+  padding: 1rem 1.6rem;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 10rem;
+}
+input::placeholder {
+  opacity: 0.6;
+}
+input:focus {
+  outline: none; /* remove default */
+  box-shadow: 0 0 0 1px #fff; /* custom visible focus indicator */
+}
+button {
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 1rem 1.6rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 10rem;
+  transition: background-color 0.2s ease;
+}
+button:hover {
+  background-color: #2563eb;
+}
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.qr-code-container {
+  padding: 1rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
