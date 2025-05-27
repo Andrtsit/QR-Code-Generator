@@ -1,12 +1,97 @@
-# React + Vite
+## QrCodeGenerator 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, user-friendly React application that generates QR codes from text or URLs. Built with React + Vite.
 
-Currently, two official plugins are available:
+## 🎯 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate QR codes instantly from any text or URL input
+- Mobile-responsive design for use on any device
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[View Live Demo](https://andrtsit.github.io/QrCodeGenerator/)
+
+## 🛠️ Technologies Used
+
+- React 19
+- Vite 6 ⚡
+- [qrcode.react 📦](https://www.npmjs.com/package/qrcode.react)
+- ESLint
+- GitHub Pages for deployment
+
+## Screenshots
+
+![QR Code Generator Screenshot](/screenshot.png)
+
+## 📦 Installation
+
+Clone the repo
+
+```
+git clone https://github.com/Andrtsit/QrCodeGenerator.git
+cd QrCodeGenerator
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Start the dev server
+
+```
+npm run dev
+```
+
+Open in any browser
+
+## 🚀 Usage
+
+1. Type your text or URL into the input field ✍️
+
+2. Click Generate 🔄
+
+3. Your QR code will appear instantly! 📸
+
+## Project Structure
+
+```
+QrCodeGenerator/
+├── public/             # Static files
+├── src/
+│   ├── components/     # React components
+│   ├── App.jsx         # Main application component
+│   ├── main.jsx        # Entry point
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+🎨 Contributing
+
+1. Fork it 🍴
+
+2. Create your feature branch (git checkout -b feature/YourFeature)
+
+3. Commit your changes (git commit -m 'Add some feature')
+
+4. Push to the branch (git push origin feature/YourFeature)
+
+5. Open a Pull Request ✨
+
+## Future Enhancements
+
+- Add color customization options
+- Support for saving QR code history + Download Option
+- Additional QR code format options
+
+## 📄 License
+
+[MIT](LICENSE)
+
+## Contact
+
+Created by [Andrtsit](https://github.com/Andrtsit) - feel free to contact me!
